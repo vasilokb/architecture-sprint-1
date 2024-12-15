@@ -1,0 +1,255 @@
+Структура папок тома Data
+Серийный номер тома: 5648-6671
+D:.
+|   .gitignore
+|   frontend.txt
+|   index.spec.js
+|   package-lock.json
+|   package.json
+|   
++---microfrontend
+|       .gitkeep
+|       
++---public
+|       favicon.ico
+|       index.html
+|       logo192.png
+|       logo512.png
+|       manifest.json
+|       robots.txt
+|       
+\---src
+    |   index.css
+    |   index.js
+    |   logo.svg
+    |   serviceWorker.js
+    |   setupTests.js
+    |   
+    +---blocks
+    |   +---auth-form
+    |   |   |   auth-form.css
+    |   |   |   
+    |   |   +---__button
+    |   |   |       auth-form__button.css
+    |   |   |       
+    |   |   +---__form
+    |   |   |       auth-form__form.css
+    |   |   |       
+    |   |   +---__input
+    |   |   |       auth-form__input.css
+    |   |   |       
+    |   |   +---__link
+    |   |   |       auth-form__link.css
+    |   |   |       
+    |   |   +---__text
+    |   |   |       auth-form__text.css
+    |   |   |       
+    |   |   +---__textfield
+    |   |   |       auth-form__textfield.css
+    |   |   |       
+    |   |   \---__title
+    |   |           auth-form__title.css
+    |   |           
+    |   +---card
+    |   |   |   card.css
+    |   |   |   
+    |   |   +---__delete-button
+    |   |   |   |   card__delete-button.css
+    |   |   |   |   
+    |   |   |   +---_hidden
+    |   |   |   |       card__delete-button_hidden.css
+    |   |   |   |       
+    |   |   |   \---_visible
+    |   |   |           card__delete-button_visible.css
+    |   |   |           
+    |   |   +---__description
+    |   |   |       card__description.css
+    |   |   |       
+    |   |   +---__image
+    |   |   |       card__image.css
+    |   |   |       
+    |   |   +---__like-button
+    |   |   |   |   card__like-button.css
+    |   |   |   |   
+    |   |   |   \---_is-active
+    |   |   |           card__like-button_is-active.css
+    |   |   |           
+    |   |   +---__like-count
+    |   |   |       card__like-count.css
+    |   |   |       
+    |   |   \---__title
+    |   |           card__title.css
+    |   |           
+    |   +---content
+    |   |       content.css
+    |   |       
+    |   +---footer
+    |   |   |   footer.css
+    |   |   |   
+    |   |   \---__copyright
+    |   |           footer__copyright.css
+    |   |           
+    |   +---header
+    |   |   |   header.css
+    |   |   |   
+    |   |   +---__auth-link
+    |   |   |       header__auth-link.css
+    |   |   |       
+    |   |   +---__logo
+    |   |   |       header__logo.css
+    |   |   |       
+    |   |   +---__logout
+    |   |   |       header__logout.css
+    |   |   |       
+    |   |   +---__user
+    |   |   |       header__user.css
+    |   |   |       
+    |   |   \---__wrapper
+    |   |           header__wrapper.css
+    |   |           
+    |   +---login
+    |   |       login.css
+    |   |       
+    |   +---page
+    |   |   |   page.css
+    |   |   |   
+    |   |   +---__content
+    |   |   |       page__content.css
+    |   |   |       
+    |   |   \---__section
+    |   |           page__section.css
+    |   |           
+    |   +---places
+    |   |   |   places.css
+    |   |   |   
+    |   |   +---__item
+    |   |   |       places__item.css
+    |   |   |       
+    |   |   \---__list
+    |   |           places__list.css
+    |   |           
+    |   +---popup
+    |   |   |   popup.css
+    |   |   |   
+    |   |   +---_is-opened
+    |   |   |       popup_is-opened.css
+    |   |   |       
+    |   |   +---_type
+    |   |   |       popup_type_edit-avatar.css
+    |   |   |       popup_type_remove-card.css
+    |   |   |       
+    |   |   +---__button
+    |   |   |   |   popup__button.css
+    |   |   |   |   
+    |   |   |   \---_disabled
+    |   |   |           popup__button_disabled.css
+    |   |   |           
+    |   |   +---__caption
+    |   |   |       popup__caption.css
+    |   |   |       
+    |   |   +---__close
+    |   |   |       popup__close.css
+    |   |   |       
+    |   |   +---__content
+    |   |   |   |   popup__content.css
+    |   |   |   |   
+    |   |   |   \---_content
+    |   |   |           popup__content_content_image.css
+    |   |   |           
+    |   |   +---__error
+    |   |   |   |   popup__error.css
+    |   |   |   |   
+    |   |   |   \---_visible
+    |   |   |           popup__error_visible.css
+    |   |   |           
+    |   |   +---__form
+    |   |   |       popup__form.css
+    |   |   |       
+    |   |   +---__icon
+    |   |   |       popup__icon.css
+    |   |   |       
+    |   |   +---__image
+    |   |   |       popup__image.css
+    |   |   |       
+    |   |   +---__input
+    |   |   |   |   popup__input.css
+    |   |   |   |   
+    |   |   |   \---_type
+    |   |   |           popup__input_type_error.css
+    |   |   |           
+    |   |   +---__label
+    |   |   |       popup__label.css
+    |   |   |       
+    |   |   +---__status-message
+    |   |   |       popup__status-message.css
+    |   |   |       
+    |   |   \---__title
+    |   |           popup__title.css
+    |   |           
+    |   \---profile
+    |       |   profile.css
+    |       |   
+    |       +---__add-button
+    |       |       profile__add-button.css
+    |       |       
+    |       +---__description
+    |       |       profile__description.css
+    |       |       
+    |       +---__edit-button
+    |       |       profile__edit-button.css
+    |       |       
+    |       +---__image
+    |       |       profile__image.css
+    |       |       
+    |       +---__info
+    |       |       profile__info.css
+    |       |       
+    |       \---__title
+    |               profile__title.css
+    |               
+    +---components
+    |       AddPlacePopup.js
+    |       App.js
+    |       Card.js
+    |       EditAvatarPopup.js
+    |       EditProfilePopup.js
+    |       Footer.js
+    |       Header.js
+    |       ImagePopup.js
+    |       InfoTooltip.js
+    |       Login.js
+    |       Main.js
+    |       PopupWithForm.js
+    |       ProtectedRoute.js
+    |       Register.js
+    |       
+    +---contexts
+    |       CurrentUserContext.js
+    |       
+    +---images
+    |       add-icon.svg
+    |       avatar.jpg
+    |       card_1.jpg
+    |       card_2.jpg
+    |       card_3.jpg
+    |       close.svg
+    |       delete-icon.svg
+    |       edit-icon.svg
+    |       error-icon.svg
+    |       like-active.svg
+    |       like-inactive.svg
+    |       logo.svg
+    |       success-icon.svg
+    |       
+    +---utils
+    |       api.js
+    |       auth.js
+    |       
+    \---vendor
+        |   fonts.css
+        |   normalize.css
+        |   
+        \---fonts
+                Inter-Black.woff2
+                Inter-Regular.woff2
+                
